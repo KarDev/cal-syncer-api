@@ -31,7 +31,8 @@
     "axios": "^1.6.8",
     "googleapis": "^137.1.0",
     "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "vercel": "^34.1.10"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
