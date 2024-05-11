@@ -11,7 +11,7 @@ import { ConfigModule } from '@nestjs/config';
     EventsModule,
     ConfigModule.forRoot({
       cache: true,
-      envFilePath: `./environments/${process.env.NODE_ENV ? process.env.NODE_ENV : 'local'}.env`,
+      envFilePath: `${process.env.PROD_ENV ? './environments/production.env' : '.env'}`,
       isGlobal: true,
     }),
   ],
